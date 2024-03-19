@@ -1,0 +1,187 @@
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/arrow-right.css");
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "open sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-image: url("../Images/yogaimage.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: end;
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  right: -10rem;
+  top: 0%;
+}
+
+nav {
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  z-index: 10;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.div-line {
+  background-color: rgb(215, 215, 215);
+  padding: 0.1rem;
+  height: 1.5rem;
+}
+
+ul {
+  display: inline-flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+li {
+  list-style: none;
+}
+.nav-btn {
+  display: flex;
+  gap: 1.5rem;
+  z-index: 10;
+}
+
+.log-btn {
+  border: none;
+  border-radius: 1.5rem;
+  padding: 12px;
+  width: 5rem;
+  font-size: 0.8rem;
+  background-color: black;
+  color: white;
+  z-index: 10;
+}
+.sign-btn {
+  border: none;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 12px;
+  width: 5rem;
+  font-size: 0.8rem;
+  background-color: black;
+  color: white;
+}
+
+/* section */
+
+.hero-section {
+  display: flex;
+  /* justify-content: space-evenly; */
+  height: 100%;
+  max-width: 100%;
+  margin-left: 15rem;
+  margin-right: auto;
+}
+.hero-text {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  margin-top: 15rem;
+}
+p,
+h1 {
+  margin-top: 1.3rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.75;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+h2 {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.profile-header {
+  font-size: 1rem;
+  line-height: normal;
+}
+
+.hero-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: none;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 1.3rem;
+  width: 18rem;
+  background-color: black;
+  color: white;
+}
+
+.profile {
+  margin-top: 1.5rem;
+  display: flex;
+}
+.img-profile1,
+.img-profile2,
+.img-profile3,
+.img-profile4,
+.img-profile5 {
+  height: 3rem;
+  border-radius: 4rem;
+  width: 3rem;
+}
+
+.img-profile2 {
+  position: relative;
+  right: 1rem;
+}
+.img-profile3 {
+  position: relative;
+  right: 2rem;
+}
+
+.img-profile4 {
+  position: relative;
+  right: 3rem;
+}
+.img-profile5 {
+  position: relative;
+  right: 4rem;
+}
+
+.img-index {
+  background-color: black;
+  color: white;
+  border-radius: 4rem;
+  font-size: 1rem;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  right: 5rem;
+}
+
+/* .hero-image {
+  height: 100%;
+  width: 50%;
+  border-radius: none;
+} */
