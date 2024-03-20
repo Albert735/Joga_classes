@@ -8,18 +8,6 @@
   margin: 0;
 }
 
-.header {
-  background-image: url("../Images/yogaimage.jpeg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  justify-content: end;
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  right: -10rem;
-  top: 0%;
-}
-
 nav {
   max-width: 1280px;
   display: flex;
@@ -83,10 +71,9 @@ li {
 
 .hero-section {
   display: flex;
-  /* justify-content: space-evenly; */
   height: 100%;
-  max-width: 100%;
-  margin-left: 15rem;
+  max-width: 1280px;
+  margin-left: auto;
   margin-right: auto;
 }
 .hero-text {
@@ -148,23 +135,30 @@ h2 {
   border-radius: 4rem;
   width: 3rem;
 }
+.img-profile1{
+    object-fit: cover;
+}
 
 .img-profile2 {
   position: relative;
   right: 1rem;
+  object-fit: cover;
 }
 .img-profile3 {
   position: relative;
   right: 2rem;
+  object-fit: cover;
 }
 
 .img-profile4 {
   position: relative;
   right: 3rem;
+  object-fit: cover;
 }
 .img-profile5 {
   position: relative;
   right: 4rem;
+  object-fit: cover;
 }
 
 .img-index {
